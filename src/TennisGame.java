@@ -46,6 +46,10 @@ public class TennisGame
 		}
 		else if(points == 4)
 			return "advantage";
+		else if(points ==0)
+		{
+			return "0";
+		}
 		else
 			return " ";
 	}
@@ -78,7 +82,7 @@ public class TennisGame
 		else if(drugi == "adventage"){
 			return "Rezultat: adventage igrac2";
 		}
-		
+		else if()
 		return "";
 	}
 }
