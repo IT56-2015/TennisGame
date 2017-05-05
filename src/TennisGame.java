@@ -6,17 +6,18 @@ public class TennisGame
 	
 	public TennisGame() 
 	{
-		// TO BE IMPLEMENTED
+		this.player1Points=0;
+		this.player2Points=0;
 	}
 
 	public void player1Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		 player1Points++;
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		// TO BE IMPLEMENTED
+		player2Points++;
 	}
 	
 	private void checkGameEnded()
@@ -26,8 +27,12 @@ public class TennisGame
 
 	private String getScore(int points) 
 	{
-		// TO BE IMPLEMENTED
-		return "";
+		if(points == 1){
+			return "15";
+		}
+		else if(points == 2){
+			return "30";
+		}
 	}
 	
 	public String getScore() 
