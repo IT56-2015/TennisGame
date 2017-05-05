@@ -72,6 +72,12 @@ public class TennisGame
 		if((prvi =="40"&&drugi=="40")||(prvi=="30" && drugi=="30")){
 			return "Rezultat: deuce";
 		}
+		else if(prvi == "adventage"){
+			return "Rezultat: adventage igrac1";
+		}
+		else if(drugi == "adventage"){
+			return "Rezultat: adventage igrac2";
+		}
 		
 		return "";
 	}
