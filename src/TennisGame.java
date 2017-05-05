@@ -82,7 +82,9 @@ public class TennisGame
 		else if(drugi == "adventage"){
 			return "Rezultat: adventage igrac2";
 		}
-		else if()
+		else if(prvi==" "){
+			return "Rezultat: pobedjuje igrac1";
+		}
 		return "";
 	}
 }

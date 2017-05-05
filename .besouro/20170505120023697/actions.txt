@@ -90,3 +90,5 @@ RefactoringAction 1493981804415 NumericScores.java ADD void test_p1Wins3Points_p
 EditAction 1493981970650 TennisGame.java 1328 6 9 0
 EditAction 1493982132232 TennisGame.java 1481 6 9 0
 EditAction 1493982233658 TennisGame.java 1535 6 5 0
+CompilationAction 1493982236031 TennisGame.java
+EditAction 1493982301695 TennisGame.java 1589 6 9 0
