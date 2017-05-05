@@ -12,12 +12,20 @@ public class TennisGame
 
 	public void player1Scored() throws TennisGameException 
 	{
-		 player1Points++;
+		if(player2Points == 4){
+			player2Points--;
+		}
+		else
+			player1Points++;
 	}
 
 	public void player2Scored() throws TennisGameException 
 	{
-		player2Points++;
+		if(player1Points == 4){
+			player1Points--;
+		}
+		else
+			player2Points++;
 	}
 	
 	private void checkGameEnded()
@@ -57,7 +65,11 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 
-		// TO BE IMPLEMENTED
+		String prvi = getScore(player1Points);
+		String drugi = getScore(player2Points);
+		if(prvi=="15" || drugi=="15"){
+			return"Incorrect score when player1 scored twice, 30 - 0";
+		}
 		return "";
 	}
 }
