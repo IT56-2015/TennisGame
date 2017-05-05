@@ -73,7 +73,7 @@ public class TennisGame
 
 		String prvi = getScore(player1Points);
 		String drugi = getScore(player2Points);
-		if((prvi =="40"&&drugi=="40")||(prvi=="30" && drugi=="30")){
+		if(prvi =="40"&&drugi=="40"){
 			return "Rezultat: deuce";
 		}
 		else if(prvi == "adventage"){
