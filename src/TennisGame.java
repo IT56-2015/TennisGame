@@ -65,17 +65,13 @@ public class TennisGame
 		// "game player1"
 		// "game player2"
 
-		/*String prvi = getScore(player1Points);
+		String prvi = getScore(player1Points);
 		String drugi = getScore(player2Points);
-		if(prvi=="15" || drugi=="15"){
+		if(prvi == "15" || drugi=="15"){
 			if(prvi=="15"){
-				return "Incorrect score when player1 scored twice, " + "15 - 0";
+				return "Incorrect score when player1 scored once" + "15 - 0";
 			}
-			else{
-				return "Incorrect score when player1 scored twice, " + "15 - 0";}
 		}
-		return "";*/
-		
-		return "{0} - {1}",getScore(player1Points), getScore(player2Points); 
+		return "";
 	}
 }
