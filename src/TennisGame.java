@@ -68,7 +68,11 @@ public class TennisGame
 		String prvi = getScore(player1Points);
 		String drugi = getScore(player2Points);
 		if(prvi=="15" || drugi=="15"){
-			return"Incorrect score when player1 scored twice, 30 - 0";
+			if(prvi=="15"){
+				return "Incorrect score when player1 scored twice, " + "15 - 0";
+			}
+			else(){
+				return "Incorrect score when player1 scored twice, " + "15 - 0";}
 		}
 		return "";
 	}
