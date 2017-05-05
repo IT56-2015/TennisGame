@@ -6,3 +6,5 @@ FileOpenedAction 1493978819519 Drone.java 5955 16 19 0
 UnitTestCaseAction 1493979271451 NumericScores.java FAIL
 UnitTestSessionAction 1493979271456 NumericScores.java FAIL
 EditAction 1493979606541 TennisGame.java 942 6 6 0
+CompilationAction 1493979609201 TennisGame.java
+EditAction 1493979678993 TennisGame.java 986 6 6 0

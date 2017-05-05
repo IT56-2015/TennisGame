@@ -33,6 +33,9 @@ public class TennisGame
 		else if(points == 2){
 			return "30";
 		}
+		else if(points == 3){
+			return "40";
+		}
 	}
 	
 	public String getScore() 
