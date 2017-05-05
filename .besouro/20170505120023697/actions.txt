@@ -70,3 +70,21 @@ RefactoringAction 1493981330124 NumericScores.java REMOVE test_p1Wins3Points_p2W
 RefactoringAction 1493981330125 NumericScores.java REMOVE test_p1Wins2Points_p2Wins3Points_Score30_40() METHOD
 RefactoringAction 1493981330126 NumericScores.java REMOVE test_p1Wins1Point_p2Wins1Point_Score15_15() METHOD
 EditAction 1493981339668 NumericScores.java 5988 1 4 1
+UnitTestCaseAction 1493981343032 NumericScores.java FAIL
+UnitTestSessionAction 1493981343034 NumericScores.java FAIL
+RefactoringAction 1493981804401 NumericScores.java ADD void test_StartScore() METHOD
+RefactoringAction 1493981804402 NumericScores.java ADD void test_p1Wins2Points_Score30_0() METHOD
+RefactoringAction 1493981804403 NumericScores.java ADD void test_p1Wins3Points_Score40_0() METHOD
+RefactoringAction 1493981804404 NumericScores.java ADD void test_p2Wins1Point_Score0_15() METHOD
+RefactoringAction 1493981804405 NumericScores.java ADD void test_p2Wins2Points_Score0_30() METHOD
+RefactoringAction 1493981804406 NumericScores.java ADD void test_p2Wins3Points_Score0_40() METHOD
+RefactoringAction 1493981804407 NumericScores.java ADD void test_p1Wins1Point_p2Wins1Point_Score15_15() METHOD
+RefactoringAction 1493981804408 NumericScores.java ADD void test_p1Wins2Points_p2Wins2Points_Score30_30() METHOD
+RefactoringAction 1493981804409 NumericScores.java ADD void test_p1Wins2Points_p2Wins1Point_Score30_15() METHOD
+RefactoringAction 1493981804410 NumericScores.java ADD void test_p1Wins3Points_p2Wins1Point_Score40_15() METHOD
+RefactoringAction 1493981804411 NumericScores.java ADD void test_p1Wins1Point_p2Wins2Points_Score15_30() METHOD
+RefactoringAction 1493981804412 NumericScores.java ADD void test_p1Wins1Point_p2Wins3Point_Score15_40() METHOD
+RefactoringAction 1493981804413 NumericScores.java ADD void test_p1Wins2Points_p2Wins3Points_Score30_40() METHOD
+RefactoringAction 1493981804414 NumericScores.java ADD void test_p1Wins3Points_p2Wins2Points_Score40_30() METHOD
+RefactoringAction 1493981804415 NumericScores.java ADD void test_p1Wins3Points_p2Wins2Points_AlternativeSequenceOfWins_Score40_30() METHOD
+EditAction 1493981970650 TennisGame.java 1328 6 9 0

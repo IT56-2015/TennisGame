@@ -44,8 +44,10 @@ public class TennisGame
 		else if(points == 3){
 			return "40";
 		}
+		else if(points == 4)
+			return "advantage";
 		else
-			return "";
+			return " ";
 	}
 	
 	public String getScore() 
@@ -67,11 +69,10 @@ public class TennisGame
 
 		String prvi = getScore(player1Points);
 		String drugi = getScore(player2Points);
-		if(prvi == "15" || drugi=="15"){
-			if(prvi=="15"){
-				return "Incorrect score when player1 scored once" + "15 - 0";
-			}
+		if((prvi =="40"&&drugi=="40")||(prvi=="30" && drugi=="30")){
+			return "Rezultat: deuce";
 		}
+		
 		return "";
 	}
 }
